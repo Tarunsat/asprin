@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:id="@+id/titles"
+
+            android:layout_margin="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asprin"
+                android:layout_gravity="center_horizontal"
+                android:typeface="serif"
+                android:textColor="@color/black"
+                android:textSize="50sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asinine wallpapers"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="708dp"
+            android:orientation="vertical">
+
+
+            <ListView
+                android:id="@+id/listview_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/Account"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:gravity="right"
+            android:onClick="gotoAccount"
+
+            android:paddingRight="10sp"
+            android:text="Account"
+
+
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cart"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+
+            android:background="@color/black"
+            android:gravity="end"
+
+            android:onClick="gotoCart"
+            android:text="Cart"
+
+            android:textColor="@color/black"
+
+            android:textSize="20sp" />
+    </RelativeLayout>
+</ScrollView>
+</LinearLayout>
