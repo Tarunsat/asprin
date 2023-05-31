@@ -33,10 +33,6 @@ Welcome to the Asprin App! This was one of the first few Android applications wh
 
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
-### License
-
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
-
 ### Acknowledgments
 
 - Special thanks to the Android community for their valuable resources and support.
